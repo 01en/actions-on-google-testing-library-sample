@@ -1,0 +1,15 @@
+{
+  "name": "testing-sample",
+  "version": "1.0.0",
+  "description": "actions on google testing library test",
+  "main": "test.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava -c 1 -s ./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google-testing": "^0.2.4",
+    "chai": "^4.2.0"
+  }
+}
